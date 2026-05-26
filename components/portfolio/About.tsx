@@ -50,10 +50,10 @@ export function About() {
             {/* Experience Stats */}
             <div className="grid grid-cols-2 gap-6 pt-8">
               {[
-                { label: "Projets réalisés", value: "20+" },
-                { label: "Clients satisfaits", value: "15+" },
-                { label: "Années d'expérience", value: "5+" },
-                { label: "Technologies", value: "15+" },
+                { label: "Projets réalisés", value: "5" },
+                { label: "Clients satisfaits", value: "4" },
+                { label: "Années d'expérience", value: "2" },
+                { label: "Technologies", value: "4" },
               ].map((stat, index) => (
                 <div
                   key={stat.label}
