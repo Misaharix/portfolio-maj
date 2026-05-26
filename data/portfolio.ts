@@ -139,7 +139,7 @@ export const portfolioData = {
       description: "Application collaborative de gestion des tâches chez Skinscare avec synchronisation en temps réel de 4salons, notifications, système de réservation, tableau de bord administrateur et gestion de caisse.",
     },
     {
-      title: "Stagiaire Developer",
+      title: "Stagiaire FullStack Developer",
       company: "Ecole Supérieur Polytechnique d'Antananarivo",
       period: "Novembre 2025 – Mars 2026 (5 mois)",
       description: "Site Vitrine Ecole Superieur Polytechnique d'Antananarivo et Apllication web d'inscription et réinscription Ecole Superieur Polytechnique d'Antananarivo",
