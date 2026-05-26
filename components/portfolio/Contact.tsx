@@ -63,7 +63,7 @@ export function Contact() {
     setIsSending(true);
     setError(false);
 
-    // Vos identifiants EmailJS sont bien enregistrés ici
+    // Vos identifiants EmailJS sont bien enregistrés ici es bon
     const SERVICE_ID = "service_8rlmqym";
     const TEMPLATE_ID = "template_etjfghe";
     const PUBLIC_KEY = "ZY0f2bqcu1Ecx_ldC";
