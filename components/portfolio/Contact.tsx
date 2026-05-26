@@ -3,7 +3,8 @@
 import { portfolioData } from "@/data/portfolio";
 import { useEffect, useRef, useState } from "react";
 // Correction de l'import : SiLinkedin au lieu de SiLinkedIn
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub} from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from "react-icons/hi";
 import emailjs from "@emailjs/browser";
 
@@ -13,7 +14,7 @@ function getContactIcon(iconSlug: string, className = "w-6 h-6") {
     phone_info: <HiOutlinePhone className={`${className} text-accent`} />,
     location_info: <HiOutlineLocationMarker className={`${className} text-accent`} />,
     github: <SiGithub className={className} />,
-    linkedin: <SiLinkedin className={`${className} text-[#0A66C2]`} />, // Mis à jour ici aussi
+    linkedin: <FaLinkedin className={`${className} text-[#0A66C2]`} />,
     email: <HiOutlineMail className={className} />,
   };
   return icons[iconSlug] || <span>📍</span>;
@@ -64,7 +65,7 @@ export function Contact() {
 
     // Vos identifiants EmailJS sont bien enregistrés ici
     const SERVICE_ID = "service_8rlmqym";
-    const TEMPLATE_ID = "template_ssuw38j";
+    const TEMPLATE_ID = "template_etjfghe";
     const PUBLIC_KEY = "ZY0f2bqcu1Ecx_ldC";
 
     try {
@@ -103,7 +104,9 @@ export function Contact() {
             </h2>
             <div className="h-1 w-16 bg-gradient-to-r from-accent to-secondary rounded-full mx-auto" />
             <p className="text-foreground/60 mt-4 text-lg">
-              Vous avez un projet en tête? N'hésitez pas à me contacter
+              Vous avez un projet en tête ? N’hésitez pas à me contacter.
+                Le message sera bien reçu si le formulaire est correctement complété.
+
             </p>
           </div>
 

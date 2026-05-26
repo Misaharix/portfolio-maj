@@ -71,6 +71,32 @@ export function About() {
                 </div>
               ))}
             </div>
+
+            {/* --- BOUTON TÉLÉCHARGER LE CV AJOUTÉ ICI --- */}
+            <div className="pt-4">
+              <a
+                href="/cv.pdf"
+                download="CV_Misaharitsoa.pdf" // Force le téléchargement avec ce nom de fichier
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-accent-foreground font-semibold rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-md hover:shadow-lg hover:scale-[1.02]"
+              >
+                <span>Télécharger mon CV</span>
+                <svg 
+                  className="w-4 h-4" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24"
+                >
+                  <path 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    strokeWidth={2} 
+                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" 
+                  />
+                </svg>
+              </a>
+            </div>
           </div>
 
           {/* Right side - Decorative Element */}

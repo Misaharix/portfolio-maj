@@ -10,7 +10,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <Link href="#" className="text-2xl font-bold gradient-text mb-2 block">
-              Dev
+              Misaharitsoa
             </Link>
             <p className="text-foreground/60 text-sm">
               Créateur de solutions numériques innovantes et performantes.
@@ -70,7 +70,7 @@ export function Footer() {
         {/* Divider */}
         <div className="border-t border-border/30 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-foreground/60 text-sm">
-            © 2024 Tous droits réservés.
+            © 2026 Tous droits réservés.
           </p>
           <div className="flex gap-6 text-foreground/60 text-sm">
             <a href="#" className="hover:text-accent transition-colors">

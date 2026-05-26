@@ -153,7 +153,7 @@ export const portfolioData = {
   ],
 
   contact: {
-    email: "votre.email@example.com",
+    email: "misaharitsoa@gmail.com",
     phone: "+261 34 94 224 68",
     location: "Madagascar",
     social: [
